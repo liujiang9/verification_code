@@ -9,8 +9,6 @@ import re
 from flask import Flask, g, request
 from db import Reids_Client
 
-__all_ = ['testcase']
-
 app = Flask(__name__)
 
 
